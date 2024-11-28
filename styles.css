@@ -1,0 +1,213 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* font-family: Arial, sans-serif;  */
+    font-family: "Nunito", sans-serif; 
+    line-height: 1.6;
+    color: #333;
+}
+.container {
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.blue-section-clip {
+    background-color: #007acc; /* Blauwe kleur */
+    height: 300px; /* Hoogte van het blauwe gebied */
+    /* clip-path: ellipse(120% 50% at 50% 0%); /* Maak een elliptische vorm */
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    max-width: 600px;
+}
+
+
+/* Header */
+.header {
+    background: #007acc;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav a {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+.purchase-button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    background: #f0f8ff;
+    padding: 2rem 0;
+}
+.hero-text {
+    flex: 1;
+    padding: 1rem;
+}
+.hero-text h2 {
+    color: #007acc;
+    font-size: 2.5rem;
+}
+.hero-text p {
+    margin: 1rem 0;
+}
+.learn-more {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signup-form {
+    flex: 0 0 300px; /* Maak de loginbox smaller */
+    background: #fff;
+    padding: 1.5rem; /* Minder padding voor een kleinere box */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute; /* Absolute positioning voor flexibele plaatsing */
+    top: 20%; /* Verplaats het hoger op de pagina */
+    right: 10%; /* Verplaats het meer naar rechts */
+    transform: translateY(-50%); /* Centraal uitlijnen bij top-positionering */
+    text-align: center;
+}
+.signup-form h3 {
+    margin-bottom: 1rem;
+}
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+}
+.signup-form input {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.signup-form .sign-in,
+.signup-form .twitter-login {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signup-form .sign-in {
+    background: #007acc;
+    color: #fff;
+}
+.signup-form .twitter-login {
+    background: #1da1f2;
+    color: #fff;
+}
+
+
+.black {
+    background-color: black;
+}
+
+.green {
+    background-color: #32a852;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    background: #e8f5ff;
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+.feature {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+.feature img {
+    max-width: 50px;
+}
+.feature h4 {
+    margin: 1rem 0 0.5rem;
+}
+
+/* Footer */
+footer {
+    background: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+footer .try-now {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.green-section {
+    background-color: #32a852; /* Groene kleur */
+    height: 200px; /* Hoogte van het groene gedeelte */
+    /* clip-path: ellipse(280% 50% at 50% 100%); /* Creëer een elliptische bovenrand */
+    clip-path: ellipse(120% 100% at 50% 100%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.green-section p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.green-section .try-now {
+    margin-top: 1rem;
+    background: #000; /* Zwarte knop */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.green-section-clip {
+    background-color: #32a852; /* Blauwe kleur */
+    height: 300px; /* Hoogte van het blauwe gebied */
+    /* clip-path: ellipse(120% 50% at 50% 0%); /* Maak een elliptische vorm */
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
